@@ -1,0 +1,101 @@
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+body {
+    margin: 4px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    background-color: #F4F4F4;
+}
+
+#container {
+    margin: auto;
+    width: 550px;
+    height: 729px;
+    border:1px solid black;
+    border-radius: 5px;
+}
+
+#upper {
+    height: 285px;
+    background-color: #56666B;
+    color: white;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-top: 33px;
+    font-size: 28px;
+    font-weight: extra-bold;
+    line-height: 38px;
+    letter-spacing: -3%;
+}
+
+#rectangle {
+    display: flex;
+    margin: 30px auto 21px;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #89A8B1;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+#input-el {
+    width: 150px;
+    height: 83px;
+    text-align: center;
+    margin: 50px auto;
+    font-size: 58px;
+    font-weight: 900px;
+    line-height: 24.4px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    color: #3D3D3D;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+#lower {
+    height: 445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    width: 500px;
+    height: 108px;
+    background-color: white;
+    border-radius: 4.68px 0 0 0;
+}
+
+h2 {
+    color: #333E42;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p {
+    color: #353535;
+}
